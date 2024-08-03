@@ -69,9 +69,9 @@ end)
 wait(0.1)
 getgenv().KeanW = {
     Main = {
-        ["FindBestServer"] = true, -- connects to server with best ping
+        ["FindBestServer"] = false, -- connects to server with best ping
         ["Key"] = "your_key",
-        ["Gui"] = true,
+        ["Gui"] = false,
         ["GuiInfo"] = true,
         ["AutoLowGFX"] = true, 
         ["DisableShadows"] = true, 
@@ -79,7 +79,7 @@ getgenv().KeanW = {
     },
     Silent = {
         ["Enabled"] = true,
-        ["UseKeybind"] = true,
+        ["UseKeybind"] = false,
         ["Keybind"] = "k",
         ["Part"] = "HumanoidRootPart",
         ["Prediction"] = 0.136,
@@ -265,7 +265,7 @@ getgenv().KeanW = {
         ["Maximum"] = 800, -- // Maximum memory to spoof
     },
     PingSpoofer = {
-        ["PingSpoofer"] = false,
+        ["PingSpoofer"] = true,
         ["PingTabColor"] = Color3.fromRGB(211, 88, 33),
         ["Minimum"] = 130,
         ["Maximum"] = 180
