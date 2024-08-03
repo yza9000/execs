@@ -69,7 +69,7 @@ end)
 wait(0.1)
 getgenv().KeanW = {
     Main = {
-        ["FindBestServer"] = false, -- connects to server with best ping
+        ["FindBestServer"] = true, -- connects to server with best ping
         ["Key"] = "your_key",
         ["Gui"] = true,
         ["GuiInfo"] = true,
@@ -119,14 +119,14 @@ getgenv().KeanW = {
     },
     FOV = {
         ["Visible"] = false,
-        ["Radius"] = 40,
+        ["Radius"] = 167,
         ["Default"] = 22,
         ["Color"] = "teal"
     },
     Range = {
         ["Enabled"] = true,
-        ["CloseDistance"] = 37,
-        ["MidDistance"] = 68,
+        ["CloseDistance"] = 30,
+        ["MidDistance"] = 90,
         ["FarDistance"] = math.huge,
         ["FOV"] = {
             ["Enabled"] = false,
